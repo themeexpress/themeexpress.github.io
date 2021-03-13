@@ -1,3 +1,4 @@
-## A New Post
+## Case change with user build function in Ruby
+Ruby already has build in function to change case. There are **upcase** and **downcase** function to do it. But what if we want to wirte a custom function to do this. It’s fun right! Lets start to coding.
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
