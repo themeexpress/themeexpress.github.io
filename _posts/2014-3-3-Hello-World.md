@@ -1,10 +1,15 @@
 ---
 layout: post
-title: You're up and running!
-published: false
+title: Case change with user build function in Ruby
+published: true
 ---
 
-## Case change in Ruby.
+###
+Ruby already has build in function to change case. There are **upcase** and **downcase** function to do it.
+But what if we want to wirte a custom function to do this. It's fun right! Lets start to coding.
+###
+
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
