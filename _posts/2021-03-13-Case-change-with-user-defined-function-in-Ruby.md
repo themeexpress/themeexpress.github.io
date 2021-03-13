@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Ruby already has build in function to change case. There are upcase and downcase function to do it. But what if we want to wirte a custom function to do this. It’s fun right! Lets start to coding.
+Ruby already has build in function to change case. There are **upcase** and **downcase** function to do it. But what if we want to wirte a custom function to do this. It’s fun right! Lets start to coding.
 
 ```
 # Case change
