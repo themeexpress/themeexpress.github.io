@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Case change with user build function in Ruby
 
@@ -30,3 +30,5 @@ def caseChanger(str, option)
 end
 caseChanger('kamrul',0)
 ```
+The key point is letter.ord+32 will give you ASCCI code for the letter. And next we have used .chr will give you the actual letter. If it is Upper case and get order number and +32 and finally use .chr to get the lower case letter. In the same process we can change lower case to uper case. Just use -32 and get the character.
+**Happy coding**
