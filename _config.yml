@@ -35,9 +35,7 @@ github_username:  themeexpress
 # theme: minima
 plugins:
   - jekyll-feed
-
-gems:
-- jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
