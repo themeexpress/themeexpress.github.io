@@ -2,11 +2,11 @@
 layout: post
 title:  "JavaScript Array and Object destructuring!"
 date:   2022-03-22 23:23:48 +0900
-categories: jekyll update
+categories: JavaScript
 ---
-Today I will discuss about Javascript Array and Object destructing. Destructing is widely using in ES6, Typescipt and Javascipt libray and framework like React Js. 
+Today I will discuss about Javascript Array and Object destructuring. destructuring is widely using in ES6, Typescipt and Javascipt libray and framework like React Js. 
 
-`Array Destructing`
+`Array destructuring`
 
 {% highlight javascript %}
 // Array Destructureing
@@ -17,7 +17,7 @@ const fruit2 = fruits[1];
 const fruit3 = fruits[2];
 console.log(fruit1,fruit2,fruit3);
 
-//Desturting
+// Destructuring
 const [a,b,c,d] = friends
 console.log(a,b,c,d);
 const [m,k, ,n,p] = friends
@@ -37,11 +37,11 @@ console.log(first,second);
 console.log(first,second);
 {% endhighlight %}
 
-`Object Destructing`
+`Object Destructuring`
 
 {% highlight javascript %}
 
-// Object Desturing 
+// Object Destructuring 
 
 const bob = {
   first: 'bob',
@@ -67,4 +67,5 @@ function printPerson(person){
   console.log(first, last, city); //output is: bob Saners
 }
 printPerson(bob);
+
 {% endhighlight %}
