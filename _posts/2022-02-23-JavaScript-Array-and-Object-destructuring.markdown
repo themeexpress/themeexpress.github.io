@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript Array and Object destructuring!"
 date:   2022-03-22 23:23:48 +0900
-categories: jekyll update
+categories: jekyll update JavaScript
 ---
 Today I will discuss about Javascript Array and Object destructuring. destructuring is widely using in ES6, Typescipt and Javascipt libray and framework like React Js. 
 
