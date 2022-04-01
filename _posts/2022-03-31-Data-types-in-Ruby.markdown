@@ -45,5 +45,134 @@ There are 4 basic types in Ruby they are:
 19.to_f #=> 19.0
 19.0.to_i #=> 19
 
+# Some useful number methods
+# even and odd
+200.even? #=> true
+201.even? #=> false
+
+199.odd? #=> true
+200.odd? #=> false
+
 {% endhighlight %}
+
+**Some useful number methods**
+**even and odd**
+
+{% highlight Ruby %}
+
+200.even? #=> true
+201.even? #=> false
+
+199.odd? #=> true
+200.odd? #=> false
+
+{% endhighlight %}
+
+`2. Strings`
+
+In Ruby we define string into the single quote or double quote. There are many useful string methods are available in Ruby.
+
+{% highlight Ruby %}
+# assign a string
+str = "I am string"
+str.class #=> String
+{% endhighlight %}
+
+**Some useful string methods**
+*Concatenation*
+
+{% highlight Ruby %}
+str = "frist string"
+str2 = "second string"
+str.concat(str2) #=> frist stringsecond string
+# there are some others way
+p str + str2 #=> frist stringsecond string
+p str << str2 #=> frist stringsecond string
+{% endhighlight %}
+*Accessing String as like array elements*
+
+{% highlight Ruby %}
+
+str = "Ruby on Rails"
+p str[0] #=> "R"
+
+"Ruby on Rails"[0]      #=> "R"
+"Ruby on Rails"[0..1]   #=> "Ru"
+"Ruby on Rails"[0, 4]   #=> "Ruby"
+"Ruby on Rails"[-1]   #=> "s"
+
+{% endhighlight %}
+
+**capitalize**
+
+{% highlight Ruby %}
+"ruby on rails".capitalize #=> "Ruby On Rails"
+{% endhighlight %}
+
+**include?**
+
+{% highlight Ruby %}
+"ruby on rails".include?("on")  #=> true
+"ruby on rails".include?("z")   #=> false
+{% endhighlight %}
+
+**upcase**
+
+{% highlight Ruby %}
+"ruby".upcase  #=> "RUBY"
+{% endhighlight %}
+
+**downcase**
+
+{% highlight Ruby %}
+"RUBY".downcase  #=> "ruby"
+{% endhighlight %}
+
+**empty?**
+
+{% highlight Ruby %}
+"ruby".empty?  #=> false
+{% endhighlight %}
+
+**length**
+
+{% highlight Ruby %}
+"ruby".length  #=> 4
+{% endhighlight %}
+
+**reverse**
+
+{% highlight Ruby %}
+"ruby".reverse  #=> "ybur"
+{% endhighlight %}
+
+**split**
+
+{% highlight Ruby %}
+"Ruby on Rails".split  #=> ["Ruby", "on", "Rails"]
+"hello".split("")    #=> ["h", "e", "l", "l", "o"]
+{% endhighlight %}
+
+**strip**
+
+{% highlight Ruby %}
+" hello, world   ".strip  #=> "hello, world"
+{% endhighlight %}
+
+**sub, gsub, insert, delete, prepend**
+
+{% highlight Ruby %}
+
+"he77o".sub("7", "l")           #=> "hel7o"
+
+"he77o".gsub("7", "l")          #=> "hello"
+
+"hello".insert(-1, " dude")     #=> "hello dude"
+
+"hello world".delete("l")       #=> "heo word"
+
+"!".prepend("hello, ", "world") #=> "hello, world!"
+
+{% endhighlight %}
+
 
