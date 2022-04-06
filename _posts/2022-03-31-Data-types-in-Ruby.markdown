@@ -175,4 +175,29 @@ p str[0] #=> "R"
 
 {% endhighlight %}
 
+`3. Symbols`
+
+Strings can be changed, so every time string is used, Ruby has to store it in memory even if existing string. Here Symbol is useful. Symbols are stored in memory only once, so the operation done more faster.
+The application of Symbol is where string is not changed frequently like keys in hashes. 
+**Creating a Symbol**
+{% highlight Ruby %}
+:it_is_symbol
+{% endhighlight %}
+
+`String vs Symbol`
+We can check the Strings and symbols by `object_id`.
+{% highlight Ruby %}
+"str" == "str" #=> true
+"str".object_id == "str".object_id #=> false
+":it_is_symbol".object_id == ":it_is_symbol".object_id #=> true
+{% endhighlight %}
+
+`4. Booleans`
+There are three type booleans in Ruby. *true, false, nil*
+**True and False**
+true and false represents that a expression is *true or false*.
+**nil**
+In Ruby, nil represents "nothing". When a piece of code in ruby doesn't have anything to return, it will return *nil*.
+
+
 
