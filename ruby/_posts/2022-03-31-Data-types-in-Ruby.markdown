@@ -2,7 +2,7 @@
 layout: post
 title:  "Data types in Ruby!"
 date:   2022-03-31 0:23:48 +0900
-categories: Ruby
+category: Ruby
 ---
 Ruby is a losing type language means you don't need to mention the data type. It is easy to use and memorize. 
 There are 4 basic types in Ruby they are:
