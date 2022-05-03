@@ -102,7 +102,7 @@ services:
       - db
 {% endhighlight %}
 
-##App creation + settings
+## App creation + settings
 
 ***
 
