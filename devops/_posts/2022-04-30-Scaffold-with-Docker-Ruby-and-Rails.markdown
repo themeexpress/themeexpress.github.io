@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scaffold Application with Docker + Ruby on Rails!"
-date:   2022-03-30 23:23:48 +0900
+date:   2022-04-30 23:23:48 +0900
 category: DevOps
 ---
 
@@ -33,7 +33,7 @@ category: DevOps
 
     *in Windows*
 
-    ` make directory manually docket\test-app`
+    `make directory manually docket\test-app`
 
 4. Change to the test-app directory
 
@@ -102,7 +102,8 @@ services:
       - db
 {% endhighlight %}
 
-##App creation + settings
+## App creation + settings
+
 ***
 
 *Hinagata app creation*
@@ -177,6 +178,7 @@ must be 32 bytes" 　→ Sorry to trouble you, but let's delete the test-app cre
 Reference article
 
 [Docs.docker.jp](https://docs.docker.jp/compose/rails.html)
-[qiita.com](https://qiita.com/yokku21/items/a06347648d5dad5e587c
+
+[qiita.com](https://qiita.com/yokku21/items/a06347648d5dad5e587c)
 
 Happy Coding :)
