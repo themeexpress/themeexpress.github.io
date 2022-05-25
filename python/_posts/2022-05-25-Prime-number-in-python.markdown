@@ -38,7 +38,7 @@ category: Python
 # Taking input from user 
 
 {% highlight python %}
-  last_number = int(input("Enther last limit of Prime counter"))
+  last_number = int(input("Enter last limit of Prime counter"))
   print([n for n in range(2, last_number)
        if all(n % m != 0 
               for m in range(2, n-1))])
