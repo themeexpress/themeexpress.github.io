@@ -24,4 +24,15 @@ category: Python
 
 ### Output: [2, 3, 5, 7, 11, 13, 17, 19]
 
+# Simple and short way
+
+{% highlight python %}
+  last_number = 22
+  print([n for n in range(2, last_number)
+       if all(n % m != 0 
+              for m in range(2, n-1))])
+{% endhighlight %}
+
+### Output: [2, 3, 5, 7, 11, 13, 17, 19]
+
 Happy Coding :)
