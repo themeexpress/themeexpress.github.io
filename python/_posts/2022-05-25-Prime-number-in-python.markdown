@@ -7,9 +7,9 @@ category: Python
 
 {% highlight python %}
 
-  def prime_number(las_number):
+  def prime_number(last_number):
     primes = []
-    for i in range(2, las_number + 1):
+    for i in range(2, last_number + 1):
       for j in range(2, int(i ** 0.5) + 1):
         if i%j == 0:
           break
