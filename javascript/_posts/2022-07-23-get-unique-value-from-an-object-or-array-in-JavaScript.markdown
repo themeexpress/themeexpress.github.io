@@ -4,6 +4,8 @@ title:  "Get Unique values from an object or array"
 date:   2022-03-22 23:23:48 +0900
 category: JavaScript
 ---
+![Unique array value in JavaScript](/javascript/assets/images/UniqueValueInJavaScript.png)
+
 Today I will discuss how to get unique value from an object or array in Javascript. This unique value is widely using in many places like menu category, seperate some unique items. 
 
 **First make an array named is menu with two values object(name and category)**
