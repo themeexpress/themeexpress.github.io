@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Md Kamrul Islam
+title: Kamrul Islam | FullStack developer | Ruby on Rails | Python | Flask | React | Django |
 
 email: email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  It is my daily learning notes and blog site. I always try to keep note when learning new things in the area of 
+  Learning and practicing about FullStack devloper specially Ruby on Rails, Python, Flask, Django, React etc. I always try to keep note when learning new things in the area of
   Computer Programming and Web Application.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

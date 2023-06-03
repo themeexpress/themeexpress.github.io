@@ -2,11 +2,11 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <link href="{{- site.url -}}{{- site.baseurl -}}/versioncontrol/feed.xml" rel="self" type="application/atom+xml"/>
-  <link href="{{- site.url -}}{{- site.baseurl -}}/versioncontrol/feed.xml" rel="alternate" type="text/html"/>
+  <link href="{{- site.url -}}{{- site.baseurl -}}/ps_dsa/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{- site.url -}}{{- site.baseurl -}}/ps_dsa/feed.xml" rel="alternate" type="text/html"/>
   <updated>{{- site.time | date_to_xmlschema -}}</updated>
   <id>{{- site.url -}}{{- site.baseurl -}}/python/feed.xml</id>
-  <title>{{site.title}} | VersionControl</title>
+  <title>{{site.title}} | ProblemSolving&DSA</title>
   <subtitle>{{-site.description | strip_html | lsrip -}} </subtitle>
   <author>
    <name>{%- if site.author -%}
@@ -16,7 +16,7 @@
         {%- endif -%}</name>
   </author>
   {%- for post in site.posts limit: 20 -%}
-    {%- if post.category=="versioncontrol" -%}
+    {%- if post.category=="ps_dsa" -%}
         <entry>
             <title>{{- post.tile -}}</title>
             <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>

@@ -4,9 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-![Md Kamrul Islam](/assets/linkedInprofile.jpeg)
+![Md Kamrul Islam](/assets/about-kamrul-islam.png)
 
-A passionate Full-stack Developer who loves to develop scalable web applications by using ColdFusion, Ruby on Rails, Python, Django, and React Js. 
+A passionate Full-stack Developer who loves to develop scalable web applications by using ColdFusion, Ruby on Rails, Python, Django, and React Js.
 
 He is a Software Engineer with 5 years of industry experience building web applications and websites. He loves my job. He always tries to find a solution that is optimized, secured, and user-friendly.
 
@@ -18,11 +18,11 @@ He has also experience with third-party API integration like SOKUMEN (online int
 
 He is confident and interested in the different programming languages and frameworks, which are PHP (Laravel, Codeigniter), JavaScript (React), Ruby on Rails, Python(Flask, Django), etc.
 
-Kamrul has gained different IT skills which are software design and development, Unit tests, Agile development, basic Linux server configurations, and Service-based application Development. 
+Kamrul has gained different IT skills which are software design and development, Unit tests, Agile development, basic Linux server configurations, and Service-based application Development.
 
 In the last few years, Kamrul has been maintaining the responsibility of managing the 3-2 person team and applying agile development techniques.
 
-He is a Self-motivated professional, a team player, and also capable to work independently. He is a quick learner and passionate about new technology and IT Industry. He writes the technical blog on medium and Github. He enjoys learning new technology and applying them to my work. 
+He is a Self-motivated professional, a team player, and also capable to work independently. He is a quick learner and passionate about new technology and IT Industry. He writes the technical blog on medium and Github. He enjoys learning new technology and applying them to my work.
 
 His ambition is to build a scalable web application that can use billions of users.
 

@@ -2,15 +2,15 @@
 layout: post
 title:  "Getting start to using git(version control)"
 date:   2022-11-06 01:23:48 +0900
-category: VersionControl
+category: DevOps
 ---
 
 # SSH key generation, git initialization, first commit and push
-It is now demanding to use a verstion control for your project. It is very helpful in you future development or team work. 
+It is now demanding to use a verstion control for your project. It is very helpful in you future development or team work.
 
 I am going to discuss the easy way to start with
 
-# Prerequisites 
+# Prerequisites
 1. First install git in your PC. I will recommand the git bash(command prompt). It is easy to use and developer friendly.
 To install git bash or git please click here [Git or git bash](https://git-scm.com/)
 2. Please create an account in github if you don't have yet, it is free. [Github](https://github.com/)
@@ -22,7 +22,7 @@ create a folder name `.ssh`
   $ mkdir .ssh
 {% endhighlight %}
 
-->Navigate to .ssh folder 
+->Navigate to .ssh folder
 
 {% highlight python %}
   $ cd .ssh
