@@ -6,7 +6,7 @@ category: ps_dsa
 ---
 
 # Problem picture
-![Keypad](/assets/images/keygen.png)
+![Keypad](/ps_dsa/assets/images/keypad.png)
 
 ## Sample input output
 {% highlight Ruby %}
@@ -20,6 +20,8 @@ output => [222]
 
 type('thanks')
 # Output => [8, 44, 2, 66, 55, 7777]
+
+{% endhighlight %}
 
 ## Solution
 
