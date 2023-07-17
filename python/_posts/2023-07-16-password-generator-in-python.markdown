@@ -4,11 +4,13 @@ title:  "Strong password generator in Python"
 date:   2023-07-16 10:10:48 +0900
 category: Python
 ---
-![Keypad](/python/assets/storng-password.png)
+![strong password](/python/assets/storng-password.png)
 Simple example of storing password generator in python. As I said strong password generator it means that there will be a string, numbers, and symbols combination.
 
 {% highlight python %}
   # We have to import the random module to use functions of random like sample()
+  import random
+
   class PasswordFunctions:
     def strong_password_generator(self, letters, numbers, symbols):
       small_letters = "abcdefghijklmnopqrstuvwxyz"
